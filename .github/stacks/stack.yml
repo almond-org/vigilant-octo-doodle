@@ -1,4 +1,4 @@
-name: Setup Java JDK
+name: Cache
 description: Setup Java JDK
 author: Jane Doe
 branding:
