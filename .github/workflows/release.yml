@@ -1,0 +1,20 @@
+name: Build and release
+on: [push, pull_request]
+
+jobs:
+  cd:
+    uses: shopy/actions/.github/workflows/cd.yml@1
+
+name: CD
+on: [workflow_call]
+
+jobs:
+  deploy_to_review:
+     ...
+
+  deploy_to_staging:
+     ...
+
+  deploy_to_production:
+    environment: production
+    …
